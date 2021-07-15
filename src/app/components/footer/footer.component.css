@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-repeat: repeat-x;
+  background-image: url("assets/Group 144@2x.png");
+  overflow: hidden;
+}

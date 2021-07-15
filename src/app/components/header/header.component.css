@@ -1,0 +1,12 @@
+* {
+  margin-top: 0%;
+}
+.header {
+  background-color: rgb(192, 136, 248);
+  width: 100vw;
+  height: 100px;
+  top: 0;
+  z-index: 0;
+  position: fixed;
+}
+
