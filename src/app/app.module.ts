@@ -10,6 +10,7 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { SigninPageComponent } from './signin-page/signin-page.component';
 import { SetUppageComponent } from './set-uppage/set-uppage.component';
 import { ProfilepageComponent } from './profilepage/profilepage.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProfilepageComponent } from './profilepage/profilepage.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
