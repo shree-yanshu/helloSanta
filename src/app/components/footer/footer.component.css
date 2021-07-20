@@ -1,13 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
 body {
-  margin: 0;
+  font-family: Lato, sans-serif;
 }
 
 footer {
-  position: relative;
-  height: 100px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-repeat: repeat-x;
-  background-image: url("src/assets/Group 144@2x.png");
+  width:100vw;
+  height: auto;
+  position:fixed;
+  bottom:0px;
 }
+footer div {
+  background-color:#675CE0;
+  margin: 0px 0px 0px 0px;
+  padding:0px;
+  color: #fff;
+  text-align:center;
+
+}
+footer .content {
+  background-color:#9081FF;
+  width: 100vw;
+  height: 100px;
+  margin: 0px 0px 0px 0px;
+  padding:0px;
+  color: #fff;
+  text-align:center;
+}
+svg {
+  width:100vw;
+  height: auto;
+}
+footer .lovebysanta{
+  width: 100vw;
+  height: 100px;
+}
+
+img{
+  background-color:#9081FF;
+}
+
+
+

@@ -11,6 +11,7 @@ import { SigninPageComponent } from './signin-page/signin-page.component';
 import { SetUppageComponent } from './set-uppage/set-uppage.component';
 import { ProfilepageComponent } from './profilepage/profilepage.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

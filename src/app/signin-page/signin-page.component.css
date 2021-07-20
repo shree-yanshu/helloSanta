@@ -18,6 +18,21 @@ img {
   width: 300px;
 }
 
+.button {
+  background-color: rgb(84, 105, 212); /* Green */
+  border: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 75px;
+  cursor: pointer;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -116,10 +131,12 @@ a {
 }
 
 .formbg {
+  border: 2px solid black;
   margin: 0px auto;
   width: 100%;
   max-width: 448px;
-  background: white;
+  background: #FFFFFF;
+  opacity: 80%;
   box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
   border-radius: 25px;
 }
@@ -154,6 +171,7 @@ label {
   width: 100%;
   min-height: 44px;
   border: unset;
+  border: 2px solid black;
   border-radius: 4px;
   outline-color: rgb(84 105 212 / 0.5);
   background-color: rgb(255, 255, 255);
