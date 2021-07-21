@@ -7,7 +7,7 @@ body {
 footer {
   width:100vw;
   height: auto;
-  position:fixed;
+  position:relative;
   bottom:0px;
 }
 footer div {
@@ -40,7 +40,7 @@ footer .lovebysanta{
 footer .footerlogo{
   float: right;
   height: 250px;
-  padding-right: 300px;
+  padding-right: 50px;
   -ms-transform: rotate(-6deg); /* IE 9 */
   transform: rotate(-6deg);
 

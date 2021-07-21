@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+:root {
+  --primary-h: 181;
+  --primary-s: 5%;
+  --primary-l: 7%;
+
+  --neutral-900: hsl(var(--primary-h) 5% 7%);
+  --neutral-500: hsl(var(--primary-h) 0% 44%);
+
+  /* Type */
+  --ff-primary: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%; /* set height to 100% of viewport*/
+-webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--ff-primary);
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: var(--fw-400);
+  color: var(--neutral-500);
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+  color: var(--clr-neutral-500);
+  font-weight: var(--fw-400);
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(96%, 58.75rem);
+  margin: 0 auto;
+}
+
+.headings {
+  width: fit-content;
+  margin: 61px 0;
+}
+
+h4 {
+  font-size: 0.75rem;
+  color: var(--neutral-900);
+  text-transform: uppercase;
+  font-weight: var(--fw-300);
+  letter-spacing: 2px;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--neutral-900);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid: 270px max-content auto / 1fr;
+  grid-row-gap: 1rem;
+}
+.card__ima {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card__tag {
+  background: white;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 5px 15px;
+  border-radius: 8px 0 0 8px;
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-weight: var(--fw-400);
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 0.875rem;
+  color: var(--neutral-500);
+}
+
+.card__btn {
+  justify-self: start;
+  text-decoration: none;
+  display: inline-block;
+  justify-items: start;
+  padding: 11px 25px;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.875rem;
+  transition: 400ms ease;
+  color: var(--neutral-900);
+  font-weight: bold;
+}
+.card__btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 5%);
+}
