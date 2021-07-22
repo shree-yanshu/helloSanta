@@ -10,7 +10,7 @@ footer {
   position:relative;
   bottom:0px;
 }
-footer div {
+footer .credits {
   background-color:#675CE0;
   margin: 0px 0px 0px 0px;
   padding:0px;
@@ -21,7 +21,7 @@ footer div {
 footer .content {
   background-color:#9081FF;
   width: 100vw;
-  height: 250px;
+  height: 300px;
   margin: 0px 0px 0px 0px;
   padding:0px;
   color: #fff;
@@ -37,15 +37,139 @@ footer .lovebysanta{
   height: 120px;
 }
 
-footer .footerlogo{
+
+.content .footer-left,
+.content .footer-center,
+.content .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content .footer-left {
+  width: 40%;
+}
+
+.content h3 {
+  color: #ffffff;
+  font: normal 100px, Julius Sans One;
+  font-size: 36px;
+  margin: 0;
+}
+
+.content h3 span {
+  color: #5383d3;
+}
+
+.content .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.content .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.content .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.content .footer-center {
+  width: 35%;
+}
+
+.content .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.content .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.content .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.content .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.content .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+.footer-right .footerlogo{
   float: right;
-  height: 250px;
+  height: 400px;
+  width: auto;
   padding-right: 50px;
   -ms-transform: rotate(-6deg); /* IE 9 */
   transform: rotate(-6deg);
 
 }
+.content .footer-right {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 25%;
+}
 
+.content .footer-company-about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
 
-
-
+.content .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer-company-about .button {
+  background-color: #fdfdfd; /* Green */
+  border: none;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  color: #9081FF;
+  padding: 0px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
