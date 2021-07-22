@@ -66,6 +66,7 @@ footer .lovebysanta{
 
 .footer-left .customerslinks{
   padding-left: 100px;
+  font-family: Raleway;
 }
 .footer-left .footer-icons a {
   display: inline-block;
@@ -96,6 +97,7 @@ footer .lovebysanta{
 }
 
 .footer-center .QuickLinks{
+  font-family: Raleway;
   position: absolute;
   top: 68%;
   left: 40%;

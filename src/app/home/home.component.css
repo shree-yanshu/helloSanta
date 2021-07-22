@@ -1,54 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-:root {
-  --primary-h: 181;
-  --primary-s: 5%;
-  --primary-l: 7%;
-
-  --neutral-900: hsl(var(--primary-h) 5% 7%);
-  --neutral-500: hsl(var(--primary-h) 0% 44%);
-
-  /* Type */
-  --ff-primary: "Roboto", sans-serif;
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
+html, body {
   overflow-x: hidden;
   width: 100%;
   height: 100%; /* set height to 100% of viewport*/
 -webkit-tap-highlight-color: transparent;
 }
-
-body {
-  min-height: 100vh;
-  font-family: var(--ff-primary);
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: var(--fw-400);
-  color: var(--neutral-500);
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
-  color: var(--clr-neutral-500);
-  font-weight: var(--fw-400);
-  text-rendering: optimizeSpeed;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
 .container {
   width: min(96%, 58.75rem);
   margin: 0 auto;
