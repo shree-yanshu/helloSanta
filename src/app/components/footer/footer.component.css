@@ -21,7 +21,7 @@ footer .credits {
 footer .content {
   background-color:#9081FF;
   width: 100vw;
-  height: 300px;
+  height: 310px;
   margin: 0px 0px 0px 0px;
   padding:0px;
   color: #fff;
@@ -125,7 +125,6 @@ footer .lovebysanta{
   float: right;
   height: 400px;
   width: auto;
-  padding-right: 50px;
   -ms-transform: rotate(-6deg); /* IE 9 */
   transform: rotate(-6deg);
 
@@ -134,42 +133,43 @@ footer .lovebysanta{
   position: relative;
   text-align: center;
   color: white;
-  width: 25%;
+  width: 25vw;
+  right: 150px;
 }
 
 .content .footer-company-about {
   line-height: 20px;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: normal;
+  font-family: Raleway;
   margin: 0;
+  width: 350px;
   position: absolute;
-  top: 45%;
-  left: 20%;
+  top: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .content .footer-company-about span {
   display: block;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 30px;
   font-weight: bold;
+  font-family: Raleway;
   margin-bottom: 20px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .footer-company-about .button {
-  background-color: #fdfdfd; /* Green */
-  border: none;
+  background-color: #fdfdfd;
   border-radius: 25px;
-  border: 2px solid #ffffff;
   color: #9081FF;
-  padding: 0px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 0px 10px;
+  font-family: Raleway;
+  padding: 10px;
+  margin: 0;
   cursor: pointer;
 }
