@@ -34,7 +34,16 @@ svg {
 footer .lovebysanta{
   background-color:#9081FF;
   width: 100vw;
-  height: 120px;
+  height: 80px;
+}
+
+.content h3 {
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
 }
 
 
@@ -46,79 +55,41 @@ footer .lovebysanta{
 }
 
 .content .footer-left {
-  width: 40%;
+  width: 20%;
+  padding-top: 80px;
+  text-align: left;
 }
 
-.content h3 {
-  color: #ffffff;
-  font: normal 100px, Julius Sans One;
-  font-size: 36px;
-  margin: 0;
+.footer-left a{
+  color: white;
 }
 
-.content h3 span {
-  color: #5383d3;
-}
-
-.content .footer-links {
-  color: #ffffff;
-  margin: 20px 0 12px;
-  padding: 0;
-}
-
-.content .footer-links a {
-  display: inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color: inherit;
-}
-
-.content .footer-company-name {
-  color: #8f9296;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
+.footer-left .customerslinks{
+  padding-left: 100px;
 }
 
 .content .footer-center {
-  width: 35%;
+  width: 40%;
+  padding-top: 80px;
+  text-align: left;
+}
+.footer-center a{
+  color: white;
 }
 
-.content .footer-center i {
-  background-color: #33383b;
-  color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
+.footer-center .QuickLinks{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.content .footer-right {
+  position: relative;
   text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
-  vertical-align: middle;
-}
-
-.content .footer-center i.fa-envelope {
-  font-size: 17px;
-  line-height: 38px;
-}
-
-.content .footer-center p {
-  display: inline-block;
-  color: #ffffff;
-  vertical-align: middle;
-  margin: 0;
-}
-
-.content .footer-center p span {
-  display: block;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 2;
-}
-
-.content .footer-center p a {
-  color: #5383d3;
-  text-decoration: none;
+  color: white;
+  width: 40%;
+  right: 150px;
 }
 
 .footer-right .footerlogo{
@@ -128,13 +99,6 @@ footer .lovebysanta{
   -ms-transform: rotate(-6deg); /* IE 9 */
   transform: rotate(-6deg);
 
-}
-.content .footer-right {
-  position: relative;
-  text-align: center;
-  color: white;
-  width: 25vw;
-  right: 150px;
 }
 
 .content .footer-company-about {
@@ -147,7 +111,7 @@ footer .lovebysanta{
   width: 350px;
   position: absolute;
   top: 55%;
-  left: 50%;
+  left: 67%;
   transform: translate(-50%, -50%);
 }
 
