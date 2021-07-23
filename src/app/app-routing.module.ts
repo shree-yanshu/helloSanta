@@ -27,6 +27,7 @@ const routes: Routes = [
   {path:'loginpage', component:LoginpageComponent},
   {path:'signinpage', component:SigninPageComponent},
   {path:'setuppage', component:SetUppageComponent},
+  {path:'profilepage', component:ProfilepageComponent},
   {path:'feedbackpage', component: FeedbackpageComponent},
   {path:'wishlistpage', component:WishlistpageComponent},
   {path:'yourorderspage', component:YourorderspageComponent},
