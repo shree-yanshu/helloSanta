@@ -21,6 +21,8 @@ import { RefundandreturnpageComponent } from './refundandreturnpage/refundandret
 import { BloghomepageComponent } from './bloghomepage/bloghomepage.component';
 import { BlogsingalpageComponent } from './blogsingalpage/blogsingalpage.component';
 import { BuyagainpageComponent } from './buyagainpage/buyagainpage.component';
+import { AccountpageComponent } from './accountpage/accountpage.component';
+
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -44,6 +46,7 @@ const routes: Routes = [
   {path:'bloghomepage', component:BloghomepageComponent},
   {path:'blogpage', component:BlogsingalpageComponent},
   {path:'buyagainpage', component:BuyagainpageComponent},
+  {path:'accountpage', component:AccountpageComponent},
 ];
 
 @NgModule({
