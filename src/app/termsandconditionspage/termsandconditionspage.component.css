@@ -3,10 +3,12 @@
   left: 50%;
   height: 100vh;
   align-items: center;
-  padding: 600px;
+  padding-top: 500px;
+  padding-bottom: 400px;
+
 }
 .inner-box{
-  height: 150vh;
+  height: auto;
   width: 80vw;
   position: relative;
   display: block;
