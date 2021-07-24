@@ -28,6 +28,7 @@ import { RefundandreturnpageComponent } from './refundandreturnpage/refundandret
 import { BloghomepageComponent } from './bloghomepage/bloghomepage.component';
 import { BlogsingalpageComponent } from './blogsingalpage/blogsingalpage.component';
 import { BuyagainpageComponent } from './buyagainpage/buyagainpage.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { BuyagainpageComponent } from './buyagainpage/buyagainpage.component';
     RefundandreturnpageComponent,
     BloghomepageComponent,
     BlogsingalpageComponent,
-    BuyagainpageComponent
+    BuyagainpageComponent,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
