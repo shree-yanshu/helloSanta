@@ -30,6 +30,7 @@ import { BlogsingalpageComponent } from './blogsingalpage/blogsingalpage.compone
 import { BuyagainpageComponent } from './buyagainpage/buyagainpage.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { AccountpageComponent } from './accountpage/accountpage.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { AccountpageComponent } from './accountpage/accountpage.component';
     BlogsingalpageComponent,
     BuyagainpageComponent,
     AccordionComponent,
-    AccountpageComponent
+    AccountpageComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
