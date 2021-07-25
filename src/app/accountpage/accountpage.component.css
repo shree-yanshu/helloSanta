@@ -49,6 +49,7 @@ app-sidenav {
     color: #ADA2FF;
     font-size: 1.25rem;
     font-weight: 600;
+    margin: 0;
 }
 
 #statistic-cards {
