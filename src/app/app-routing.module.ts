@@ -22,7 +22,7 @@ import { BloghomepageComponent } from './bloghomepage/bloghomepage.component';
 import { BlogsingalpageComponent } from './blogsingalpage/blogsingalpage.component';
 import { BuyagainpageComponent } from './buyagainpage/buyagainpage.component';
 import { AccountpageComponent } from './accountpage/accountpage.component';
-
+import { ProductpageComponent } from './productpage/productpage.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -47,6 +47,7 @@ const routes: Routes = [
   {path:'blogpage', component:BlogsingalpageComponent},
   {path:'buyagainpage', component:BuyagainpageComponent},
   {path:'accountpage', component:AccountpageComponent},
+  {path:'productpage', component:ProductpageComponent},
 ];
 
 @NgModule({
