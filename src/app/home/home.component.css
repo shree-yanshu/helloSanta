@@ -44,7 +44,7 @@
 .box3{
   right: 50%;
   left: 50%;
-  height: 100vh;
+  height: 80vh;
   align-items: center;
 }
 .inner-box3{
@@ -74,87 +74,149 @@ button{
   font-size: 25px;
   cursor: pointer;
 }
-
-.container {
-  width: min(96%, 58.75rem);
-  margin: 0 auto;
+#container {
+  width: 95%;
+  margin: 4em auto;
 }
 
-.headings {
-  width: fit-content;
-  margin: 61px 0;
+#container2 {
+  width: 95%;
+  margin: 3em auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-h4 {
-  font-size: 0.75rem;
-  color: var(--neutral-900);
-  text-transform: uppercase;
-  font-weight: var(--fw-300);
-  letter-spacing: 2px;
-  margin-bottom: 1em;
-}
 
-h1 {
-  font-size: 2rem;
-  color: var(--neutral-900);
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  display: grid;
-  grid: 270px max-content auto / 1fr;
-  grid-row-gap: 1rem;
-}
-.card__ima {
-  border-radius: 20px;
-  overflow: hidden;
-  position: relative;
+#orders-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50px;
   width: 100%;
-  height: 270px;
-  object-fit: cover;
-  object-position: center;
+  padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.card__tag {
-  background: white;
-  position: absolute;
-  top: 20px;
-  right: 0;
-  padding: 5px 15px;
-  border-radius: 8px 0 0 8px;
+.order-card, .order-img {
+  border-radius: 20px;
 }
 
-h3 {
-  font-size: 1.375rem;
-  font-weight: var(--fw-400);
-  margin-bottom: 1em;
+.order-card {
+  width: 20%;
+  margin: 1em 0.5em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-p {
-  font-size: 0.875rem;
-  color: var(--neutral-500);
+.order-details {
+  color: #FFAB00;
+  padding: 1em;
 }
 
-.card__btn {
-  justify-self: start;
+.order-title {
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  color: #FFAB00;
+}
+
+.order-price-and-add-to-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
+}
+
+.order-price {
+  margin-right: 1em;
+  color: #5AC179;
+}
+
+.order-add-to-cart {
+  background-color: #ADA2FF; /* Green */
+  border-radius: 10px;
+  border: 5px solid #9081FF;
+  color: white;
+  margin: 0 0 0 0;
+  padding: 5px 10px;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
-  justify-items: start;
-  padding: 11px 25px;
-  border: 1px solid rgb(0 0 0 / 0.1);
-  border-radius: 4px;
-  text-align: center;
-  font-size: 0.875rem;
-  transition: 400ms ease;
-  color: var(--neutral-900);
-  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
 }
-.card__btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 5%);
+
+
+#orders-container2 {
+
+  border-radius: 50px;
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: #46a35e;
+}
+
+.order-card2, .order-img2 {
+  border-radius: 20px;
+}
+
+.order-card2 {
+  background-color: #ffffff;
+  width: 15%;
+  margin: 1em 0.5em;
+  box-shadow: rgba(196, 17, 17, 0.2) 0px 2px 8px 0px;
+}
+
+.order-details2 {
+  color: #FFAB00;
+  padding: 1em;
+}
+
+.order-title2 {
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  color: #FFAB00;
+}
+
+.order-price-and-add-to-cart2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+  padding-top: 10px;
+  font-size: 1.25rem;
+}
+
+.order-price2 {
+  margin-right: 1em;
+  color: #5AC179;
+}
+
+.order-add-to-cart2 {
+  background-color: #ccc5fc; /* Green */
+  border-radius: 10px;
+  border: 5px solid #9081FF;
+  color: #9081FF;
+  margin: 0 20px 0 0;
+  padding: 0px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.order-add-to-cart3 {
+  background-color: #FFF4DE; /* Green */
+  border-radius: 10px;
+  border: 5px solid #FFB010;
+  color: #FFB010;
+  margin: 0 0 0 0;
+  padding: 2px 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
 }
