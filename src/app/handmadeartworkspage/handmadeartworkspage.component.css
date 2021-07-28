@@ -79,8 +79,7 @@
   margin-top: 5%;
   float: left;
   margin-left: 0.5%;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 5rem;
   font-size: 20px;
 }
@@ -93,15 +92,14 @@
   margin-top: 3%;
 }
 .list{
-  padding-left: 2%;
   margin-top: -5%;
 
 }
 .listoptions{
   color: tomato;
   font-size: 13px;
-  border:1px solid tomato;
-  color:tomato
+  color:tomato;
+  text-decoration: none;
 }
 #container {
   width: 95%;

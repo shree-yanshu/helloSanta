@@ -6,3 +6,21 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.star::before{
+  content: url('/assets/star.svg') !important;
+}
+button{
+  background:transparent;
+  margin: 0%;
+  padding:0%;
+}
+li{
+  list-style: none;
+}
+input{
+  border:none;
+}
+input:focus{
+  border: none;
+}

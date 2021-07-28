@@ -78,7 +78,7 @@ button{
 #orders-container1 {
   border-radius: 50px;
   width: 100%;
-  padding: 2em;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -113,7 +113,7 @@ button{
 #orders-container2 {
   border-radius: 50px;
   width: 100%;
-  padding: 2em;
+  padding: 0.5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -247,7 +247,7 @@ button{
   }
 
   60%, 90% {
-    width: 9em;
+    width: 7em;
   }
 }
 @keyframes text1 {
@@ -255,7 +255,7 @@ button{
     width: 0;
   }
   10%, 40% {
-    width: 10em;
+    width: 11.5em;
   }
 }
 

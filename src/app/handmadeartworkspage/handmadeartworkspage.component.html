@@ -24,6 +24,7 @@
     ligula, id laoreet ex.</p>
 
 </div>
+<div style="height: 100%">
 <div id="container2">
   <section id="orders-container">
     <div class="order-card" *ngFor="let product of products">
@@ -47,7 +48,8 @@
     padding-left: 6%;
     width: 82%;
     border-radius: 6px;
-    margin-left: 4%;">
+    margin-left: 4%;
+outline: none">
 
   <i class="fa fa-search" style="color: #FF6584;font-size: 23px;
     padding-left: 1%"></i>
@@ -75,9 +77,9 @@
     margin-top: 3%;">
     <h3 style="color: tomato;text-align: center;font-weight: bold;">Price Filters</h3>
     <ul style="padding-left: 2%;margin-top: -5%;">
-      <li style="color: tomato;font-size: 13px;"><input type="radio" style="border:1px solid tomato;color:tomato">Minimum to Maximum</li>
-      <li style="color: tomato;font-size: 13px;"><input type="radio" style="border:1px solid tomato;color:tomato">Maximum to Minimum</li>
-      <li style="color: tomato;font-size: 13px;"><input type="radio" style="border:1px solid tomato;color:tomato">500-1000</li>
+      <li class="listoptions"><input type="radio">Minimum to Maximum</li>
+      <li class="listoptions"><input type="radio">Maximum to Minimum</li>
+      <li class="listoptions"><input type="radio">500-1000</li>
     </ul>
   </div>
   <div style="background-color: white;    width: 93%;
@@ -86,12 +88,12 @@
     margin-left: 2%;
     margin-top: 3%;">
     <h3 style="color: tomato;text-align: center;font-weight: bold;">Price Filters</h3>
-    <ul style="padding-left: 2%;margin-top: -5%;">
-      <li style="color: tomato;font-size: 13px;"><input type="radio" style="border:1px solid tomato;color:tomato">Minimum to Maximum</li>
-      <li style="color: tomato;font-size: 13px;"><input type="radio" style="border:1px solid tomato;color:tomato">Maximum to Minimum</li>
-      <li style="color: tomato;font-size: 13px;"><input type="radio" style="border:1px solid tomato;color:tomato">500-1000</li>
-    </ul>
+    <li class="listoptions"><input type="radio">Minimum to Maximum</li>
+    <li class="listoptions"><input type="radio">Maximum to Minimum</li>
+    <li class="listoptions"><input type="radio">500-1000</li>
+
   </div>
+</div>
 </div>
 <app-footer ></app-footer>
 </body>

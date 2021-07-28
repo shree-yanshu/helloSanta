@@ -32,6 +32,7 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { AccountpageComponent } from './accountpage/accountpage.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ProductpageComponent } from './productpage/productpage.component';
+import { ProductFullCardComponent } from './components/product-full-card/product-full-card.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { ProductpageComponent } from './productpage/productpage.component';
     AccordionComponent,
     AccountpageComponent,
     SidenavComponent,
-    ProductpageComponent
+    ProductpageComponent,
+    ProductFullCardComponent
   ],
   imports: [
     BrowserModule,
