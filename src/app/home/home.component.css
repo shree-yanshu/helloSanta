@@ -48,7 +48,7 @@
   align-items: center;
 }
 .inner-box3{
-  height: 70vh;
+  height: auto;
   width: 85vw;
   position: relative;
   display: block;
@@ -74,81 +74,43 @@ button{
   font-size: 25px;
   cursor: pointer;
 }
-#container {
-  width: 95%;
-  margin: 4em auto;
-}
 
-#container2 {
-  width: 95%;
-  margin: 3em auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-#orders-container {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+#orders-container1 {
   border-radius: 50px;
   width: 100%;
-  padding: 4em;
+  padding: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
+  color: #46a35e;
 }
 
-.order-card, .order-img {
+.order-card1, .order-img1 {
   border-radius: 20px;
 }
 
-.order-card {
-  width: 20%;
-  margin: 1em 0.5em;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.order-card1 {
+  background-color: #ffffff;
+  width: 15%;
+  margin: 0em 0.5em;
+  box-shadow: rgba(196, 17, 17, 0.2) 0px 2px 8px 0px;
 }
 
-.order-details {
+.order-details1 {
   color: #FFAB00;
   padding: 1em;
 }
 
-.order-title {
+.order-title1 {
   font-family: 'Poppins';
   font-size: 1.5rem;
   color: #FFAB00;
 }
 
-.order-price-and-add-to-cart {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Poppins';
-  font-size: 1.25rem;
-}
-
-.order-price {
-  margin-right: 1em;
-  color: #5AC179;
-}
-
-.order-add-to-cart {
-  background-color: #ADA2FF; /* Green */
-  border-radius: 10px;
-  border: 5px solid #9081FF;
-  color: white;
-  margin: 0 0 0 0;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
-}
 
 
 #orders-container2 {
-
   border-radius: 50px;
   width: 100%;
   padding: 2em;
@@ -166,7 +128,7 @@ button{
 .order-card2 {
   background-color: #ffffff;
   width: 15%;
-  margin: 1em 0.5em;
+  margin: 0em 0.5em;
   box-shadow: rgba(196, 17, 17, 0.2) 0px 2px 8px 0px;
 }
 
@@ -181,42 +143,119 @@ button{
   color: #FFAB00;
 }
 
-.order-price-and-add-to-cart2 {
+
+#container3 {
+  width: 95%;
+  margin: 4em auto;
+}
+
+#container3 {
+  width: 95%;
+  margin: 3em auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#orders-container3 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50px;
+  width: 100%;
+  padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.order-card3, .order-img3 {
+  border-radius: 20px;
+}
+
+.order-card3 {
+  width: 20%;
+  margin: 1em 0.5em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.order-details3 {
+  color: #FFAB00;
+  padding: 1em;
+}
+
+.order-title3 {
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  color: #FFAB00;
+}
+
+.order-price-and-add-to-cart3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Poppins';
-  padding-top: 10px;
   font-size: 1.25rem;
 }
 
-.order-price2 {
+.order-price3 {
   margin-right: 1em;
   color: #5AC179;
 }
 
-.order-add-to-cart2 {
-  background-color: #ccc5fc; /* Green */
+.order-add-to-cart5 {
+  background-color: #ADA2FF; /* Green */
   border-radius: 10px;
   border: 5px solid #9081FF;
-  color: #9081FF;
-  margin: 0 20px 0 0;
-  padding: 0px 10px;
+  color: white;
+  margin: 0 0 0 0;
+  padding: 5px 10px;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
   cursor: pointer;
 }
 
-.order-add-to-cart3 {
-  background-color: #FFF4DE; /* Green */
-  border-radius: 10px;
-  border: 5px solid #FFB010;
-  color: #FFB010;
-  margin: 0 0 0 0;
-  padding: 2px 5px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
+
+
+.text_1 {
+  animation: text1;
 }
+.text_2 {
+  animation: text2;
+}
+.text_1, .text_2 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+.text_1::after, .text_2::after {
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text2 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+
+  60%, 90% {
+    width: 9em;
+  }
+}
+@keyframes text1 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 10em;
+  }
+}
+

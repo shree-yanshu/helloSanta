@@ -17,30 +17,7 @@
   color: #FF6584;
 
 }
-#inputs{
-  color: #FFB010;
-  background-color: #FFF4DE;
-  height: 8%;
-  width: 30%;
-  border-radius: 36px;
-  margin-right: 37%;
-  margin-bottom: -18%;
-  float: right;
-  font-size: 15px;
-  margin-top: -13%;
-  font-size: 13px;
-  border: 3px solid #FFAC03
-}
-.second-divs{
-  box-shadow:0 15px 20px rgba(0, 0, 0,.2);
-  width: 29%;
-  background-color: white;
-  margin-right:3%;
-  margin-top:3%;
-  height: 353px;
-  border-radius: 30px;
-  float: right;
-}
+
 .first{
   width: 24%;height: 276px;border-radius: 50px;margin-left: 1%;
   margin-top: 8%;
@@ -82,12 +59,7 @@
   margin-left: 57%;
   margin-top: 9%
 }
-.rupees{
-  color: #4DC488;
-  font-size: 26px;
-  margin-left: 3%;
-  margin-top: -3%;
-}
+
 .headings{
   color: coral;
   font-weight: bold;
@@ -106,10 +78,13 @@
   border-radius: 13px;
   width: 19%;
   height: 67%;
-  margin-bottom: 13%;
+  margin-top: 5%;
   float: left;
-  margin-top: -60%;
   margin-left: 0.5%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;
+  font-size: 20px;
 }
 .search-inner-box{
   background-color: #ffffff;    width: 93%;
@@ -126,10 +101,9 @@
 .listoptions{
   color: tomato;
   font-size: 13px;
-  border:1px solid tomato;
   color:tomato
 }
-#container {
+#container2 {
   width: 95%;
   margin: 4em auto;
 }
@@ -201,3 +175,4 @@
   font-size: 15px;
   cursor: pointer;
 }
+
