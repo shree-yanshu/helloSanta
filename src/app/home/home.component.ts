@@ -11,6 +11,113 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-products=[1,2,3,4,5,6]
-categories=[1,2,3,4]
+  products=[
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+  ]
+
+  blogs=[
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"A blog to read",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"A blog to read",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"A blog to read",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"A blog to read",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+    },
+  ]
+categories=[
+  {
+    "img":"https://source.unsplash.com/940x650",
+    "name":"DigitalArtWork Product",
+  },
+  {
+    "img":"https://source.unsplash.com/940x650",
+    "name":"DigitalArtWork Product",
+  },
+  {
+    "img":"https://source.unsplash.com/940x650",
+    "name":"DigitalArtWork Product",
+  },
+  {
+    "img":"https://source.unsplash.com/940x650",
+    "name":"DigitalArtWork Product",
+  },
+  {
+    "img":"https://source.unsplash.com/940x650",
+    "name":"DigitalArtWork Product",
+  },
+  {
+    "img":"https://source.unsplash.com/940x650",
+    "name":"DigitalArtWork Product",
+  },
+  {
+    "img":"https://source.unsplash.com/940x650",
+    "name":"DigitalArtWork Product",
+  },
+]
+  othercategories=[
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"Handmade ArtWork Product",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"Handmade ArtWork Product",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"Handmade ArtWork Product",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"Handmade ArtWork Product",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"Handmade ArtWork Product",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"Handmade ArtWork Product",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"Handmade ArtWork Product",
+    },
+]
 }

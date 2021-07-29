@@ -33,6 +33,10 @@ import { AccountpageComponent } from './accountpage/accountpage.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ProductpageComponent } from './productpage/productpage.component';
 import { ProductFullCardComponent } from './components/product-full-card/product-full-card.component';
+import { CategoryCardComponent } from './components/category-card/category-card.component';
+import { WideProductCardComponent } from './components/wide-product-card/wide-product-card.component';
+import { SmallProductCardComponent } from './components/small-product-card/small-product-card.component';
+import { BlogCardComponent } from './components/blog-card/blog-card.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +68,11 @@ import { ProductFullCardComponent } from './components/product-full-card/product
     AccountpageComponent,
     SidenavComponent,
     ProductpageComponent,
-    ProductFullCardComponent
+    ProductFullCardComponent,
+    CategoryCardComponent,
+    WideProductCardComponent,
+    SmallProductCardComponent,
+    BlogCardComponent
   ],
   imports: [
     BrowserModule,

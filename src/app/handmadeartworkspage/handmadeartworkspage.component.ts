@@ -11,6 +11,61 @@ export class HandmadeartworkspageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  products=[1,2,3,4,5,6,7,8,9]
+  products=[
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+    {
+      "img":"https://source.unsplash.com/940x650",
+      "name":"ArtWork Product",
+      "description":"Lorem ipsum dolor sit amet, consecteturadipiscing elit. Curabitur cursus tinciduntcommodo. Nunc justo nisi, vestibulum.",
+      "price":"2300",
+    },
+  ]
 
 }
