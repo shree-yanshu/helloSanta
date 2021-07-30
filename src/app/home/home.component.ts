@@ -37,7 +37,6 @@ export class HomeComponent implements OnInit {
       "price":"2300",
     },
   ]
-
   blogs=[
     {
       "img":"https://source.unsplash.com/940x650",
