@@ -12,3 +12,22 @@
   border: 5px solid #9081FF;
 
 }
+.heading{
+  font-family: Poppins;
+  text-align: center;
+  padding-top: 80px;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #6D5DE3;
+  }
+@media only screen and (max-width: 600px){
+  .heading{
+    font-size: 19px;
+  }
+  .inner-box{
+    margin: 2.5%;
+    padding: 5%;
+    font-size: 15px; 
+    width: 92%; }
+  }
+  
